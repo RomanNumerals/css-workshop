@@ -105,3 +105,18 @@ this is there it ends from what he showed */ .word-wrap {
     background-color: purple;
     box-shadow: 20px 20px 50px 20px black;
 }
+.resizable {
+    height: 220px;
+    width: 220px;
+    background-color: yellow;
+    overflow: auto;
+    resize: both;
+}
+.stroke {
+    font-size: 12px;
+    -webkit-text-stroke: 2px;
+}
+.text-dec {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
