@@ -120,3 +120,99 @@ this is there it ends from what he showed */ .word-wrap {
     text-decoration: underline;
     text-decoration-color: red;
 }
+.list-style {
+    list-style: tibetan;
+    text-indent: 20px;
+}
+.ani1 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: relative;
+    animation-name: ani1;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    color: white;
+}
+@keyframes ani1 {
+    0% {
+        background-color: black;
+        left: 0%;
+    }
+    50% {
+        background-color: red;
+        left: 100%;
+    }
+    100% {
+        background-color: yellow;
+        left: 0%;
+    }
+}
+.ani2 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: relative;
+    animation-name: ani2;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    color: white;
+}
+@keyframes ani2 {
+    0% {
+        background-color: black;
+        left: 0%;
+    }
+    50% {
+        background-color: red;
+        left: 100%;
+    }
+    100% {
+        background-color: yellow;
+        left: 0%;
+    }
+}
+.ani3 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: relative;
+    animation-name: ani3;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    color: white;
+}
+@keyframes ani3 {
+    0% {
+        background-color: black;
+        left: 0%;
+    }
+    50% {
+        background-color: red;
+        left: 100%;
+    }
+    100% {
+        background-color: yellow;
+        left: 0%;
+    }
+}
+.puspa-example {
+    width: 50px;
+    position: relative;
+    height: 10px;
+    padding: 5%;
+    background-color: yellow;
+    border: 2px solid green;
+    transform: rotate(10deg);
+}
+.why {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    position: relative;
+    /* could not see collin's code, however it is the animation where text moves from left
+	to right */
+}
