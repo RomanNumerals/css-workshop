@@ -7,3 +7,12 @@ body {
     height: 50px;
     border-radius: 100%;
 }
+.background-img {
+    height: 120px;
+    width: 240px;
+    position: relative;
+    background-image: url(images/doberman.jpeg);
+    background-clip: padding-box;
+    padding: 10px;
+    left: 25%;
+}
