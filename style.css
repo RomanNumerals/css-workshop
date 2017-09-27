@@ -70,3 +70,9 @@ section {
     border: 1px solid black;
     overflow-y: scroll;
 }
+.icup span:nth-of-type(odd) {
+    color: lime;
+}
+.icup span:nth-of-type(even) {
+    color: yellow;
+}
