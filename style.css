@@ -76,3 +76,11 @@ section {
 .icup span:nth-of-type(even) {
     color: yellow;
 }
+.background-blend {
+    width: 220px;
+    position: relative;
+    height: 220px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/octocat.jpg), linear-gradient(to right, blue 80%, white 100%);
+}
